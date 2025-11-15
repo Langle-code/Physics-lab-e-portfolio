@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>College Physics 2 — E‑Portfolio | Edwyn Angel Barja‑Maglasang</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg1:#0f1724; --bg2:#0b1220; --card:#0f1724cc; --accent:#cbb4ff; --muted:#94a3b8; --glass: rgba(255,255,255,0.04);
+    }
+    *{box-sizing:border-box}
+    body{font-family:Inter,system-ui,Segoe UI,Roboto,Arial; margin:0; min-height:100vh;color:#e6eef8; background:linear-gradient(180deg,var(--bg1),var(--bg2));-webkit-font-smoothing:antialiased}
+
+    .wrap{max-width:1100px;margin:40px auto;padding:32px}
+    header{display:flex;align-items:center;gap:24px}
+    .avatar{width:92px;height:92px;border-radius:18px;background:linear-gradient(135deg,#6b21a8,#a78bfa);display:flex;align-items:center;justify-content:center;font-weight:800;font-family:Playfair Display;color:white;font-size:36px;box-shadow:0 8px 30px rgba(0,0,0,0.6)}
+    h1{font-family:Playfair Display,serif;margin:0;font-size:24px}
+    p.lead{margin:6px 0 0;color:var(--muted)}
+
+    .grid{display:grid;grid-template-columns:1fr 360px;gap:28px;margin-top:28px}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:16px;padding:20px;box-shadow:0 8px 24px rgba(5,10,20,0.6);backdrop-filter:blur(6px)}
+
+    .section-title{display:flex;align-items:center;gap:12px;margin-bottom:12px}
+    .pill{background:var(--glass);padding:6px 10px;border-radius:999px;color:var(--accent);font-weight:600;font-size:13px}
+    .muted{color:var(--muted);font-size:14px}
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    th,td{padding:10px 12px;text-align:left;border-bottom:1px dashed rgba(255,255,255,0.04);font-size:14px}
+    th{color:var(--muted);font-weight:600}
+
+    .big-stat{display:flex;gap:14px;align-items:center}
+    .stat{background:linear-gradient(90deg,rgba(255,255,255,0.025),rgba(255,255,255,0.02));padding:18px;border-radius:12px;text-align:center;min-width:120px}
+    .stat h3{margin:0;font-size:20px;color:var(--accent);font-family:Playfair Display}
+    .stat p{margin:6px 0 0;color:var(--muted);font-size:13px}
+
+    .outcomes{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px}
+    .outcome{background:rgba(255,255,255,0.02);padding:12px;border-radius:10px}
+    .outcome h4{margin:0 0 6px 0;font-size:14px}
+    .outcome p{margin:0;color:var(--muted);font-size:13px}
+
+    .proofs{display:flex;flex-direction:column;gap:12px}
+    .proofs img{width:100%;border-radius:10px;background:#0b1220;height:180px;object-fit:contain;border:1px solid rgba(255,255,255,0.03)}
+
+    footer{margin-top:20px;color:var(--muted);font-size:13px;text-align:center}
+
+    /* responsive */
+    @media (max-width:980px){.grid{grid-template-columns:1fr;}.avatar{width:72px;height:72px;font-size:28px}}
+
+    /* print friendly */
+    @media print{body{background:white;color:black} .card{background:white;box-shadow:none} .avatar{box-shadow:none} a{color:black}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="avatar">EA</div>
+      <div>
+        <h1>Edwyn Angel Barja‑Maglasang — College Physics 2 Laboratory</h1>
+        <p class="lead">E‑Portfolio: evidence, reflections, and course outcomes (Electricity, Circuits, Magnetism & Optics)</p>
+      </div>
+    </header>
+
+    <div class="grid">
+      <!-- Main column -->
+      <main>
+        <section class="card">
+          <div class="section-title">
+            <div class="pill">1. Introduction / Bio</div>
+            <div class="muted">Student background & course outcomes</div>
+          </div>
+          <p style="margin-top:8px;color:#dbeafe">I entered this course with foundational physics knowledge and clear objectives: to strengthen my grasp of electric fields, circuits, and experimental technique, and to apply those skills to engineering contexts. Below are the official course outcomes covered in this portfolio.</p>
+
+          <div class="outcomes" style="margin-top:14px">
+            <div class="outcome">
+              <h4>C01 – C04</h4>
+              <p>Electric charge &amp; fields, Coulomb's law, electric potential, series &amp; parallel circuits, and DC circuit analysis (V, I, R).</p>
+            </div>
+            <div class="outcome">
+              <h4>C05 – C08</h4>
+              <p>Kirchhoff's laws (KCL &amp; KVL), fundamentals of magnetism, and optics principles (reflection &amp; refraction).</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="card" style="margin-top:18px">
+          <div class="section-title">
+            <div class="pill">2. Foundational Evidence</div>
+            <div class="muted">Quizzes, Lab Reports &amp; Final Exam (summary + insights)</div>
+          </div>
+
+          <div class="big-stat" style="margin-top:8px">
+            <div class="stat">
+              <h3>Lab Avg</h3>
+              <p>89.75 / 100</p>
+            </div>
+            <div class="stat">
+              <h3>Quiz Avg</h3>
+              <p>64 / 100</p>
+            </div>
+            <div class="stat">
+              <h3>Final Exam</h3>
+              <p>72 / 100</p>
+            </div>
+          </div>
+
+          <h3 style="margin-top:18px">Lab Reports — detailed</h3>
+          <table>
+            <thead>
+              <tr><th>Activity / Lab</th><th>Score</th><th>Insights</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Activity 01: Electric Force &amp; Electric Fields</td><td>100 / 100</td><td>Strong conceptual &amp; representational skills with field lines.</td></tr>
+              <tr><td>Activity 02: Coulomb's Law</td><td>100 / 100</td><td>Accurate force calculations &amp; consistent procedure.</td></tr>
+              <tr><td>E201 Lab Report</td><td>38 / 50</td><td>Needed clearer error analysis and result discussion.</td></tr>
+              <tr><td>E202 Lab Report</td><td>30 / 50</td><td>Struggled with deeper interpretation of results.</td></tr>
+              <tr><td>E203 Lab Report</td><td>42 / 50</td><td>Improved explanation; consistent measurements.</td></tr>
+              <tr><td>E204 Submission</td><td>36 / 50</td><td>Minor calculation mistakes; procedure correct.</td></tr>
+              <tr><td>E205 Submission</td><td>36 / 50</td><td>Learned better data tabulation; KCL practice.</td></tr>
+              <tr><td>E206 Submission</td><td>36 / 50</td><td>Applying KVL to circuit loops; clarity still improving.</td></tr>
+            </tbody>
+          </table>
+
+          <h3 style="margin-top:18px">Quizzes &amp; Final Exam</h3>
+          <table>
+            <thead>
+              <tr><th>Assessment</th><th>Score</th><th>Insight</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Quiz 1</td><td>52 / 100</td><td>Early conceptual gaps in electric fields &amp; vectors.</td></tr>
+              <tr><td>Quiz 2</td><td>76 / 100</td><td>Solid improvement on circuits and Ohm's law.</td></tr>
+              <tr><td>Final Exam</td><td>72 / 100</td><td>Good application of Kirchhoff’s laws and magnetism basics.</td></tr>
+            </tbody>
+          </table>
+
+          <p style="margin-top:12px;color:var(--muted)">*Note: Add screenshots of the grade indicators and scanned proof images in the proofs section on the right. Replace the placeholder images with actual screenshots saved as <code>lab-proof-1.jpg</code>, <code>quiz-proof-1.jpg</code>, etc.</p>
+        </section>
+
+        <section class="card" style="margin-top:18px">
+          <div class="section-title">
+            <div class="pill">3. Reflective Essay</div>
+            <div class="muted">Strengths, weaknesses, &amp; transfer of skills</div>
+          </div>
+
+          <h3 style="margin-top:6px">Strengths</h3>
+          <ul style="color:var(--muted);line-height:1.6">
+            <li>Persistence in following feedback and improving performance.</li>
+            <li>Careful experimental technique and documentation.</li>
+            <li>Growing ability to analyze circuits using KCL/KVL.</li>
+          </ul>
+
+          <h3 style="margin-top:8px">Weaknesses &amp; Plan to Improve</h3>
+          <ul style="color:var(--muted);line-height:1.6">
+            <li>Conceptual gaps early in the course — will revisit textbook chapters and solved problems weekly.</li>
+            <li>Error analysis needs work — will practice uncertainty propagation and structured discussion in reports.</li>
+            <li>Explain reasoning (not just computations) — include short conceptual summaries in future solutions.</li>
+          </ul>
+
+          <h3 style="margin-top:8px">How I’ll Use These Skills</h3>
+          <p style="color:var(--muted)">The practical skills (circuit analysis, measurements, clear reporting) directly support future coursework in electronics, instrumentation, and projects involving sensors and embedded systems. The discipline of lab work and written documentation will also be useful in research and engineering roles.</p>
+        </section>
+
+      </main>
+
+      <!-- Side column -->
+      <aside>
+        <div class="card">
+          <div class="section-title"><div class="pill">Quick Info</div><div class="muted">Snapshot</div></div>
+          <p><strong>Name:</strong> Edwyn Angel Barja‑Maglasang</p>
+          <p><strong>Course:</strong> College Physics 2 Laboratory</p>
+          <p><strong>Semester:</strong> 2nd Semester — 2025</p>
+
+          <hr style="border:none;border-top:1px solid rgba(255,255,255,0.03);margin:12px 0">
+          <h4 style="margin:0 0 8px 0">Course Outcomes</h4>
+          <div style="color:var(--muted);font-size:14px;line-height:1.55">
+            <strong>C01–C04:</strong> Electric fields, Coulomb's law, circuits (series &amp; parallel), DC analysis.<br>
+            <strong>C05–C08:</strong> Kirchhoff's laws, magnetism, reflection &amp; refraction.
+          </div>
+
+          <hr style="border:none;border-top:1px solid rgba(255,255,255,0.03);margin:12px 0">
+          <h4 style="margin:0 0 8px 0">Proofs &amp; Screenshots</h4>
+          <div class="proofs">
+            <!-- User should replace these sources with actual screenshots -->
+            <img src="lab-proof-1.jpg" alt="Lab grade screenshot placeholder">
+            <img src="quiz-proof-1.jpg" alt="Quiz grade screenshot placeholder">
+            <img src="final-proof.jpg" alt="Final exam screenshot placeholder">
+          </div>
+
+          <div style="margin-top:12px;display:flex;gap:8px">
+            <a href="#" onclick="alert('To download: save this page as HTML or ask me to export a PDF.')" style="text-decoration:none;padding:10px 12px;border-radius:10px;background:linear-gradient(90deg,#111827,#0b1220);color:var(--accent);font-weight:600">Save / Export</a>
+            <a href="#" onclick="alert('Replace the placeholder images in the source with your screenshots named lab-proof-1.jpg etc.')" style="text-decoration:none;padding:10px 12px;border-radius:10px;background:rgba(255,255,255,0.02);color:var(--muted);">How to attach proofs</a>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:18px;text-align:center">
+          <svg width="64" height="64" viewBox="0 0 24 24" fill="none" style="opacity:0.85"><path d="M12 2C7.03 2 3 6.03 3 11c0 4.97 4.03 9 9 9s9-4.03 9-9c0-4.97-4.03-9-9-9zm0 16c-3.87 0-7-3.13-7-7 0-3.86 3.13-7 7-7s7 3.14 7 7c0 3.87-3.13 7-7 7z" stroke="url(#g)" stroke-width="1.2"/></svg>
+          <p style="color:var(--muted);margin-top:12px">Need formatting changes, export to PDF, or a more compact one‑page version? I can update it.</p>
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      <small>Prepared by Edwyn Angel Barja‑Maglasang • College Physics 2 Laboratory — E‑Portfolio</small>
+    </footer>
+  </div>
+</body>
+</html>
